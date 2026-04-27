@@ -1,0 +1,14 @@
+{
+  "name": "smart-task-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart Task Manager built with React, Node.js, Express, and SQLite.",
+  "scripts": {
+    "dev": "npm run dev:client",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "start:client": "npm --prefix client run preview",
+    "start:server": "npm --prefix server start",
+    "install:all": "npm install && npm --prefix client install && npm --prefix server install"
+  }
+}
